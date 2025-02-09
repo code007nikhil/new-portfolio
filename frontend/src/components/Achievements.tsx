@@ -80,7 +80,7 @@ const Achievements = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className={`relative flex items-center ${
+                className={`relative flex flex-col sm:flex-row items-center ${
                   index % 2 === 0 ? 'justify-start' : 'justify-end'
                 }`}
               >
@@ -91,7 +91,7 @@ const Achievements = () => {
                 {/* Content Card */}
                 <motion.div
                   whileHover={{ scale: 1.02 }}
-                  className={`w-5/12 bg-black/40 backdrop-blur-sm rounded-lg border border-cyan-500/30 
+                  className={`w-full sm:w-5/12 bg-black/40 backdrop-blur-sm rounded-lg border border-cyan-500/30 
                              p-6 ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'}`}
                 >
                   <div className="flex items-start gap-4">

@@ -135,6 +135,7 @@ const HeroSection = () => {
                          transition-all duration-300 transform hover:scale-105
                          shadow-lg shadow-cyan-500/20"
               />
+
             </div>
           </motion.div>
         </div>

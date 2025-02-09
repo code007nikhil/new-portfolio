@@ -22,10 +22,11 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-opacity-80 backdrop-blur-sm z-50"
          style={{ backgroundColor: 'var(--bg-primary)' }}>
-      <div className="w-full max-w-[1440px] mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="w-full mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-xl md:text-2xl font-bold gradient-text">
-          Portfolio
+         Nikhil_Thakur
         </div>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
